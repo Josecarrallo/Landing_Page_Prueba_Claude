@@ -174,17 +174,29 @@ function App() {
 
       {/* IMAGEN DE PERSONA EN MUELLE */}
       <section style={{
-        backgroundImage: `url(${muelleImage})`,
-        backgroundSize: '100% auto',
-        backgroundRepeat: 'no-repeat',
-        backgroundPosition: 'center center',
-        backgroundColor: '#000',
-        minHeight: '100vh'
-      }}></section>
+        width: '100%',
+        height: '100vh',
+        backgroundColor: '#4a3c1f',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center'
+      }}>
+        <img
+          src={muelleImage}
+          alt="Retreat scene"
+          style={{
+            width: '100%',
+            maxWidth: '600px',
+            maxHeight: '100vh',
+            objectFit: 'contain',
+            display: 'block'
+          }}
+        />
+      </section>
 
       {/* JOIN THE NEWSLETTER SECTION */}
       <section style={{
-        backgroundColor: '#000',
+        backgroundColor: '#4a3c1f',
         padding: '50px 20px',
         textAlign: 'center'
       }}>
