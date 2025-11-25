@@ -250,17 +250,21 @@ function App() {
       {/* Stanbury Retreats Sand Image */}
       <section style={{
         width: '100%',
+        height: '40vh',
         display: 'flex',
         justifyContent: 'center',
-        backgroundColor: '#f5f5f5'
+        backgroundColor: '#f5f5f5',
+        overflow: 'hidden'
       }}>
         <img
           src={stanburyRetreatsSand}
           alt="Stanbury Retreats"
           style={{
             width: '100%',
-            maxWidth: '600px',
-            height: 'auto',
+            maxWidth: '800px',
+            height: '100%',
+            objectFit: 'cover',
+            objectPosition: 'center bottom',
             display: 'block'
           }}
         />
