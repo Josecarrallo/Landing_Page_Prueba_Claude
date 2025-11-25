@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import sandBackground from './sand-background.jpg';
-import carolineMuelle from './caroline-muelle.png';
+import stanburyRetreatsSand from './stanbury-retreats-sand.jpg';
+import carolineBvst from './caroline-bvst.jpg';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('registration');
@@ -246,13 +247,23 @@ function App() {
         </h1>
       </header>
 
-      {/* Background with text */}
+      {/* Stanbury Retreats Sand Image */}
       <section style={{
-        backgroundImage: `url(${sandBackground})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'top',
-        minHeight: '300px'
+        width: '100%',
+        display: 'flex',
+        justifyContent: 'center',
+        backgroundColor: '#f5f5f5'
       }}>
+        <img
+          src={stanburyRetreatsSand}
+          alt="Stanbury Retreats"
+          style={{
+            width: '100%',
+            maxWidth: '600px',
+            height: 'auto',
+            display: 'block'
+          }}
+        />
       </section>
 
       {/* Video Section */}
@@ -388,18 +399,18 @@ function App() {
 
       {/* Caroline Image */}
       <section style={{
-        backgroundColor: '#000',
+        backgroundColor: '#f5f5f5',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        padding: '0'
+        padding: '20px 0'
       }}>
         <img
-          src={carolineMuelle}
+          src={carolineBvst}
           alt="Caroline Stanbury Retreat"
           style={{
             width: '100%',
-            maxWidth: '900px',
+            maxWidth: '600px',
             height: 'auto',
             display: 'block'
           }}
