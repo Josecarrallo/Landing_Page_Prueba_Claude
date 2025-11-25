@@ -250,7 +250,7 @@ function App() {
       {/* Stanbury Retreats Sand Image */}
       <section style={{
         width: '100%',
-        height: '33vh',
+        height: '38vh',
         display: 'flex',
         justifyContent: 'center',
         backgroundColor: '#f5f5f5',
@@ -261,10 +261,10 @@ function App() {
           alt="Stanbury Retreats"
           style={{
             width: '100%',
-            maxWidth: '800px',
+            maxWidth: '700px',
             height: '100%',
             objectFit: 'cover',
-            objectPosition: 'center 42%',
+            objectPosition: 'center 48%',
             display: 'block'
           }}
         />
