@@ -260,10 +260,11 @@ function App() {
           src={stanburyRetreatsSand}
           alt="Stanbury Retreats"
           style={{
-            width: 'auto',
-            maxWidth: '100%',
+            width: '100%',
+            maxWidth: '800px',
             height: '100%',
-            objectFit: 'contain',
+            objectFit: 'cover',
+            objectPosition: 'center 42%',
             display: 'block'
           }}
         />
