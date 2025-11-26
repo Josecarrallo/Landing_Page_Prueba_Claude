@@ -260,7 +260,7 @@ function App() {
         flexDirection: 'column',
         justifyContent: 'flex-end',
         alignItems: 'center',
-        paddingBottom: '40px'
+        paddingBottom: '80px'
       }}>
         {/* Video */}
         <div style={{
