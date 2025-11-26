@@ -270,7 +270,7 @@ function App() {
         }}>
           <div style={{
             width: '100%',
-            paddingTop: '65%',
+            paddingTop: '75%',
             position: 'relative',
             backgroundColor: '#000',
             borderRadius: '8px',
