@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 import sandBackground from './sand-background.jpg';
 import stanburyRetreatsSand from './stanbury-retreats-sand.jpg';
 import carolineBvst from './caroline-bvst.jpg';
-import carolRetreatsTitle from './carol-retreats-title.png';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('registration');
@@ -251,33 +250,21 @@ function App() {
       {/* Stanbury Retreats Sand Image with Video Overlay */}
       <section style={{
         width: '100%',
-        height: 'calc(100vh - 60px)',
+        minHeight: '70vh',
         backgroundImage: `url(${stanburyRetreatsSand})`,
         backgroundSize: 'cover',
-        backgroundPosition: 'center top',
+        backgroundPosition: 'center center',
         backgroundRepeat: 'no-repeat',
         position: 'relative',
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'flex-end',
         alignItems: 'center',
-        paddingBottom: '20px'
+        paddingBottom: '40px'
       }}>
-        {/* Carol Retreats Title Image */}
-        <img
-          src={carolRetreatsTitle}
-          alt="Carol Retreats"
-          style={{
-            maxWidth: '200px',
-            width: '40%',
-            height: 'auto',
-            marginBottom: '10px'
-          }}
-        />
-
-        {/* Video overlaid on bottom half */}
+        {/* Video */}
         <div style={{
-          width: '90%',
+          width: '95%',
           maxWidth: '700px',
           position: 'relative'
         }}>
