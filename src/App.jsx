@@ -247,44 +247,35 @@ function App() {
         </h1>
       </header>
 
-      {/* Stanbury Retreats Sand Image */}
+      {/* Stanbury Retreats Sand Image with Video Overlay */}
       <section style={{
         width: '100%',
-        height: '30vh',
+        height: 'calc(100vh - 60px)',
+        backgroundImage: `url(${stanburyRetreatsSand})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center top',
+        backgroundRepeat: 'no-repeat',
+        position: 'relative',
         display: 'flex',
-        justifyContent: 'center',
+        flexDirection: 'column',
+        justifyContent: 'flex-end',
         alignItems: 'center',
-        backgroundColor: '#f5f5f5',
-        overflow: 'hidden'
+        paddingBottom: '20px'
       }}>
-        <img
-          src={stanburyRetreatsSand}
-          alt="Stanbury Retreats"
-          style={{
-            width: '100%',
-            maxWidth: '800px',
-            transform: 'scale(0.6)',
-            transformOrigin: 'center center',
-            display: 'block'
-          }}
-        />
-      </section>
-
-      {/* Video Section */}
-      <section style={{
-        backgroundColor: '#f5f5f5',
-        padding: '0'
-      }}>
+        {/* Video overlaid on bottom half */}
         <div style={{
-          width: '100%',
-          maxWidth: '800px',
-          margin: '0 auto'
+          width: '90%',
+          maxWidth: '700px',
+          position: 'relative'
         }}>
           <div style={{
             width: '100%',
             paddingTop: '56.25%',
             position: 'relative',
-            backgroundColor: '#000'
+            backgroundColor: '#000',
+            borderRadius: '8px',
+            overflow: 'hidden',
+            boxShadow: '0 4px 20px rgba(0,0,0,0.3)'
           }}>
             <iframe
               src="https://fast.wistia.net/embed/iframe/nn611u2tzp?autoPlay=true&muted=false&controlsVisibleOnLoad=true&playButton=true&fullscreenButton=true&volumeControl=true&endVideoBehavior=reset"
