@@ -265,12 +265,12 @@ function App() {
         {/* Video */}
         <div style={{
           width: '95%',
-          maxWidth: '700px',
+          maxWidth: '800px',
           position: 'relative'
         }}>
           <div style={{
             width: '100%',
-            paddingTop: '56.25%',
+            paddingTop: '65%',
             position: 'relative',
             backgroundColor: '#000',
             borderRadius: '8px',
