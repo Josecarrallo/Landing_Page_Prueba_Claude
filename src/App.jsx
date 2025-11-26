@@ -250,7 +250,7 @@ function App() {
       {/* Stanbury Retreats Sand Image with Video Overlay */}
       <section style={{
         width: '100%',
-        minHeight: '70vh',
+        minHeight: '100vh',
         backgroundImage: `url(${stanburyRetreatsSand})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center center',
