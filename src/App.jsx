@@ -253,7 +253,7 @@ function App() {
         minHeight: '100vh',
         backgroundImage: `url(${stanburyRetreatsSand})`,
         backgroundSize: 'cover',
-        backgroundPosition: 'center center',
+        backgroundPosition: 'center top',
         backgroundRepeat: 'no-repeat',
         position: 'relative',
         display: 'flex',
