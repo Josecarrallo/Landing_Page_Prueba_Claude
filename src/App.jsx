@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import sandBackground from './sand-background.jpg';
 import stanburyRetreatsSand from './stanbury-retreats-sand.jpg';
 import carolineBvst from './caroline-bvst.jpg';
+import carolRetreatsTitle from './carol-retreats-title.png';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('registration');
@@ -262,6 +263,18 @@ function App() {
         alignItems: 'center',
         paddingBottom: '20px'
       }}>
+        {/* Carol Retreats Title Image */}
+        <img
+          src={carolRetreatsTitle}
+          alt="Carol Retreats"
+          style={{
+            maxWidth: '200px',
+            width: '40%',
+            height: 'auto',
+            marginBottom: '10px'
+          }}
+        />
+
         {/* Video overlaid on bottom half */}
         <div style={{
           width: '90%',
